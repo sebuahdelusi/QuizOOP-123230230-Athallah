@@ -15,14 +15,14 @@ import java.awt.event.ActionListener;
  */
 public class MainMenu extends JFrame implements ActionListener {
     private Movie[] movies = {
-        new ActionMovie("Avengers"),
+        new ActionMovie("Spongebob"),
         new ActionMovie("Fast & Furious"),
-        new ActionMovie("Jumanji"),
-        new ActionMovie("Titanic")
+        new ActionMovie("Avenger"),
+        new ActionMovie("Iron Man")
     };
 
     public MainMenu() {
-        setTitle("Main Menu");
+        setTitle("Movie Selection");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);

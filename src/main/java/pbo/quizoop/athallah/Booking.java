@@ -163,7 +163,7 @@ public class Booking extends JFrame implements ActionListener {
                     "Showtime: " + showtime + "\n" +
                     "Tickets: " + tickets + "\n" +
                     "Payment: " + paymentMethod + "\n" +
-                    "Total Price: Rp" + totalPrice);
+                    "Total Price: (Incl. 10% tax) Rp" + totalPrice);
 
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(this, "Invalid input! Make sure Date and Tickets are numbers.");
