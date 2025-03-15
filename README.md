@@ -1,3 +1,3 @@
-Athallah Joyoningrat
-123230230
+Athallah Joyoningrat / 
+123230230 / 
 IF-H
